@@ -1,0 +1,45 @@
+/* global */
+
+$color-first: #263238;
+$color-secend:#546e7a;
+$font-text: 'Nunito Sans', sans-serif;
+$font-title:'Halant', serif;
+
+
+*, *::before, *::after {
+   box-sizing: border-box; 
+    
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #fff;
+    color: $color-secend;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h1 {
+    color: $color-first;
+}
+
+button {
+    padding: 15px 35px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #f50057;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff80ab;
+}
