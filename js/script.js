@@ -19,7 +19,7 @@ let argButtonName, buttonRock, buttonPaper, buttonScissors;
  * Logika
  */
 function buttonClicked(argButtonName) {
-    var computerMove, playerMove, randomNumber;
+    let computerMove, playerMove, randomNumber;
   clearMessages();
   console.log("Guzik " + argButtonName + ' został kliknięty');
 
