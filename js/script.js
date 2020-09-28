@@ -13,7 +13,7 @@ function clearMessages(){
 
 
 
-var argButtonName, buttonRock, buttonPaper, buttonScissors;
+let argButtonName, buttonRock, buttonPaper, buttonScissors;
 
 /**
  * Logika
