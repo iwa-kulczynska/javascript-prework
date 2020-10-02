@@ -10,13 +10,13 @@ function clearMessages(){
 
 
 
-
-let argButtonName, buttonRock, buttonPaper, buttonScissors;
+ let argButtonName, buttonRock, buttonPaper, buttonScissors;
 
 /**
  * Logika
  */
 function buttonClicked(argButtonName) {
+    
     let computerMove, playerMove, randomNumber;
   clearMessages();
   console.log("Guzik " + argButtonName + ' został kliknięty');
@@ -30,6 +30,8 @@ function buttonClicked(argButtonName) {
   console.log('ruch komputera to: ' + computerMove);
   displayResult(playerMove, computerMove);
 }
+
+
 
 buttonRock = document.getElementById('button-rock');
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
